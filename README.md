@@ -1,60 +1,56 @@
-🚴‍♂️ Bike Sales Dashboard
-📊 Overview
-The Bike Sales Dashboard is an interactive tool designed to analyze and visualize bike sales data. This project leverages customer demographics, income levels, education, and commuting distances to uncover insights and trends in purchasing behavior.
+# Bike Sales Dashboard with Power BI
 
-🎯 Objective: Provide actionable insights for businesses to understand customer purchasing patterns and improve decision-making.
+This repository contains a **Bike Sales Analysis Dashboard** created in Power BI. The dashboard provides comprehensive insights into customer demographics, purchasing trends, and commuting patterns, helping businesses understand bike sales dynamics.
 
-✨ Features
-🔍 Interactive Filters:
-Filter data by Marital Status, Region, Occupation, and Education.
+---
 
-📈 Key Metrics:
-Average income analysis by gender.
-Purchase behavior segmented by Age Groups.
-Trends in bike purchases by Commute Distance.
+## 🚴 Key Features of the Dashboard
+- **Purchases by Average Income**:
+  - Segregates purchasing trends by gender and income levels.
+  - Highlights how income influences bike purchases (Yes/No).
 
-📊 Visualizations:
-Bar charts for income and purchase analysis.
-Line charts for age and commute-based trends.
+- **Purchases by Age**:
+  - Visualizes the buying behavior across different age groups: Adolescent, Middle Age, and Old Age.
 
-📂 Dataset
-The dataset (Excel Project Dataset.xlsx) contains anonymized records and includes:
+- **Purchases by Commute Distance**:
+  - Displays bike purchasing trends by commute distances:
+    - 0–1 miles, 1–2 miles, 2–5 miles, 5–10 miles, and more than 10 miles.
 
-Customer Demographics: Age, gender, marital status, region.
-Purchase Information: Whether a bike was purchased or not.
-Socioeconomic Details: Income, education level, and occupation.
-Commute Details: Distance traveled daily.
+- **Dynamic Filters**:
+  - The dashboard includes slicers for:
+    - **Marital Status**: Married, Single
+    - **Region**: Europe, North America, Pacific
+    - **Occupation**: Clerical, Management, Manual, Professional, Skilled Manual
+    - **Education Level**: Bachelors, Graduate Degree, High School, Partial College, Partial High School
 
-🔍 Key Insights
-🪙 Income vs. Purchase Behavior
-Male customers with higher average income ($60,123.97) are more likely to buy bikes than females.
+---
 
-👥 Purchases by Age
-Middle-aged individuals dominate bike purchases, accounting for 355 customers.
+## 📊 Insights
+1. **Income Trends**: 
+   - Higher-income individuals are more likely to purchase bikes.
+   - Male customers with income over $60,123.97 lead purchases.
 
-🛣️ Distance-Based Trends
-Bike purchases are highest among commuters traveling 2-5 miles.
-Minimal purchases are observed for distances under 1 mile or over 10 miles.
+2. **Age Group Analysis**:
+   - Middle-aged individuals dominate the purchasing demographic with **355 purchases**.
 
-🛠️ Tools and Technologies
-Microsoft Excel: Data cleaning, transformation, and pivot table preparation.
-Power BI: Interactive dashboard creation and data visualization.
+3. **Distance Insights**:
+   - Commute distances between 0–1 miles show significant purchasing activity.
+
+4. **Demographic Breakdown**:
+   - Single and married individuals contribute equally when filtered by region, occupation, and education level.
+
+---
+
+## 📁 File Structure
+- **`Bike Sales Dashboard.pbix`**: The Power BI file for this dashboard.
+- **`Bike Sales Dashboard SS.png`**: A snapshot of the dashboard.
+
+---
+📸 Dashboard Preview
+![Bike Sales Dashboard SS](https://github.com/user-attachments/assets/bd2e7a66-2229-4a53-91bc-97c7bbc07ac4)
+
+---
+🙌 Contributing
+Contributions are welcome! Feel free to fork this repository, make updates, and submit a pull request.
 
 
-📸 Screenshots
-📊 Interactive Dashboard:
-
-![Bike Sales Dashboard SS](https://github.com/user-attachments/assets/7dc67ba5-ce57-4609-b2c6-984b66fee181)
-
-
-🚀 Future Enhancements
-⏳ Add time-series analysis to track sales patterns over time.
-📊 Introduce additional demographic or behavioral filters.
-🤖 Implement predictive models to forecast bike purchase likelihood.
-
-🤝 Contributions
-We welcome contributions! If you'd like to improve this project:
-
-Fork the repository.
-Make your changes.
-Submit a pull request for review.
